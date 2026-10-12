@@ -1,0 +1,53 @@
+DCOMP320 Assignment 1 - Test Expressions
+=========================================
+
+--- Basic Arithmetic Tests ---
+------------------------------
+3+5 = 8
+5*4 = 20
+
+--- Operator Precedence Tests ---
+---------------------------------
+3+5*2 = 13
+(3+5)*2 = 16
+
+--- Division Tests ---
+----------------------
+10/2 = 5
+3/4 = 0.75
+
+--- Complex Expression Tests ---
+--------------------------------
+10-(2+3)*4 = -10
+
+--- Additional Test Cases ---
+-----------------------------
+100 + 200 = 300
+12.5 + 7.5 = 20
+10 - 3 - 2 = 5
+8 / 2 / 2 = 2
+2 * 3 + 4 * 5 = 26
+((2+3)*(4-1)) = 15
+(10 + 5) / (3 - 0) = 5
+5 * (2 + 3) / 5 = 5
+2.5 * 4 = 10
+100 / 3 = 33.333333333333336
+
+--- Unary Operator Tests ---
+----------------------------
+-5+3 = -2
++7-2 = 5
+
+--- Error Case Tests ---
+------------------------
+10/0 = ERROR: Division by zero is not allowed
+5++3 = 8
+(3+5 = ERROR: Mismatched parentheses: no closing parenthesis found
+3+5) = ERROR: Mismatched parentheses: no opening parenthesis found
+abc = ERROR: Invalid character: 'a'
+5*@3 = ERROR: Invalid character: '@'
+..5 = ERROR: Invalid number: multiple decimal points
+3..2 = ERROR: Invalid number: multiple decimal points
+
+--- End of Expressions ---
+==========================
